@@ -12,10 +12,10 @@ public interface PuneHouseRepository extends JpaRepository<pune, Long> {
     List<pune> findBySize(String size);
 
     List<pune> getHouseByBath(String bath);
-    //List<pune> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
+    List<pune> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
 
 
-    //  List<pune> findBySite_Location(String site_location);
+     List<pune> findBySite_Location(String site_location);
 }
 
 
