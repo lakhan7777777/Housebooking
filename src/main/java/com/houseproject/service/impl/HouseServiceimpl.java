@@ -76,11 +76,11 @@ public class HouseServiceimpl implements HouseService {
     public List<pune> getHouseByBaths(String bath) {
         return puneHouseRepository.getHouseByBath(bath);
     }
-   /* @Override
+    @Override
     public List<pune> getHouseBySite_Location(String site_location) {
         return puneHouseRepository.findBySite_Location(site_location);
-    }*/
-  /* public List<Bangalore> getBangaloreHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
+    }
+  public List<Bangalore> getBangaloreHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
        return bangaloreHouseRepository.findByPriceRangeBetween(minPrice, maxPrice);
    }
 
@@ -90,6 +90,5 @@ public class HouseServiceimpl implements HouseService {
 
     public List<pune> getPuneHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
         return puneHouseRepository.findByPriceRangeBetween(minPrice, maxPrice);
-    }*/
+    }
 }
-//E:\house booking\house
