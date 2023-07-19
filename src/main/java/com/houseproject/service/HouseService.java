@@ -33,9 +33,9 @@ public interface HouseService {
     List<Bangalore> getHouseByBath(String bath);
 
     List<pune> getHouseByBaths(String bath);
-   /* List<Delhi> getDelhiHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
+    List<Delhi> getDelhiHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
 
     List<pune> getPuneHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
 
-    List<Bangalore> getBangaloreHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);*/
+    List<Bangalore> getBangaloreHousesByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
 }
