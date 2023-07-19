@@ -11,6 +11,6 @@ public interface BangaloreHouseRepository extends JpaRepository<Bangalore, Long>
     List<Bangalore> findBySize(String size);
 
     List<Bangalore> getHouseByBath(String bath);
-    //List<Bangalore> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
+    List<Bangalore> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
 }
 
