@@ -68,7 +68,7 @@ public class HouseController {
         return houseService.getHouseByBaths(bath);
     }
 
-   /* @GetMapping("/bangalore-houses/by-price-range")
+    @GetMapping("/bangalore-houses/by-price-range")
     public List<Bangalore> getBangaloreHousesByPriceRange(
             @RequestParam("minPrice") BigDecimal minPrice, @RequestParam("maxPrice") BigDecimal maxPrice) {
         return houseService.getBangaloreHousesByPriceRange(minPrice, maxPrice);
@@ -84,5 +84,5 @@ public class HouseController {
     public List<pune> getPuneHousesByPriceRange(
             @RequestParam("minPrice") BigDecimal minPrice, @RequestParam("maxPrice") BigDecimal maxPrice) {
         return houseService.getPuneHousesByPriceRange(minPrice, maxPrice);
-    }*/
+    }
 }
