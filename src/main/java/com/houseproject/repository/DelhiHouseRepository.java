@@ -17,7 +17,7 @@ public interface DelhiHouseRepository extends JpaRepository<Delhi, Long> {
     List<Delhi> getHouseByBathroom(String bathroom);
 
 
-    //List<Delhi> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
+    List<Delhi> findByPriceRangeBetween(BigDecimal minPrice, BigDecimal maxPrice);
 }
 
 
